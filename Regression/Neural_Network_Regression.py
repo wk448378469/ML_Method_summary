@@ -37,7 +37,7 @@ Y_pre = rg.predict(X_test)
 rg.score(X_test,Y_test)
 rg.loss_
 '''
-    hidden_layer_sizes                      啊
+    hidden_layer_sizes                      第i个元素表示第i个隐藏层中神经元的数量
     activation                              隐藏层的激活函数
         identity                                f(x) = x
         logistic                                f(x) = 1 / (1 + exp(-x))
