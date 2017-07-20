@@ -66,7 +66,7 @@ def prediction_data(model,id2word,prediction_data):
 if (__name__ == 'main'):
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
     # 读取数据
-    X = load_data(quantity=10000)
+    X = load_data(quantity=5000)
     # 简单的清洗下数据
     X = clean_data(X)
     # 获取训练模型前所需要的数据
